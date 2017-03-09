@@ -1,5 +1,4 @@
 # armhf-docker-engine-deb
-Raspbian package of docker-engine for ARM
 
 This is a short documentation how to build the docker-engine Raspbian package for ARM from master branch.
 
