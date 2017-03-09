@@ -17,5 +17,6 @@ ls bundles
 - Install the package
 
 ```bash
+wget https://github.com/sealsystems/armhf-docker-engine-deb/releases/download/git20170308.175228.0.3fe2730/docker-engine_17.04.0.dev.git20170308.175228.0.3fe2730-0.raspbian-jessie_armhf.deb
 sudo dpkg -i docker-engine_17.04.0~dev~git20170308.175228.0.3fe2730-0~raspbian-jessie_armhf.deb
 ```
