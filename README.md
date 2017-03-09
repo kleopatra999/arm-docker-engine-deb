@@ -12,7 +12,7 @@ Its purpose is to test the fix for https://github.com/docker/docker/issues/30590
 git clone https://github.com/docker/docker
 cd docker
 make deb
-ls bundles
+ls bundles/17.04.0-dev/build-deb/
 ```
 
 - Copy the Raspbian package back to your Raspberry Pis
@@ -38,7 +38,7 @@ git fetch origin pull/31193/head:pr31193
 git checkout pr31193
 git rebase master
 make deb
-ls bundles
+ls bundles/17.04.0-dev/build-deb/
 ```
 
 - Copy the deb packages back to your 64bit Raspberry Pis
