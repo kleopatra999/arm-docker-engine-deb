@@ -45,6 +45,6 @@ ls bundles/17.04.0-dev/build-deb/
 - Install the package
 
 ```bash
-wget https://github.com/sealsystems/arm-docker-engine-deb/releases/download/gitTBD/docker-engine_17.04.0.dev.TBD.deb
-sudo dpkg -i docker-engine_17.04.0~dev~TBD.deb
+wget https://github.com/sealsystems/arm-docker-engine-deb/releases/download/git20170304.072735.0.ec888ea/docker-engine_17.04.0.dev.git20170304.072735.0.ec888ea-0.debian-jessie_arm64.deb
+sudo dpkg -i docker-engine_17.04.0.dev.git20170304.072735.0.ec888ea-0.debian-jessie_arm64.deb
 ```
