@@ -1,6 +1,7 @@
 # armhf-docker-engine-deb
 
 This is a short documentation how to build the docker-engine Raspbian package for ARM from master branch.
+Its purpose is to test the fix for https://github.com/docker/docker/issues/30590 on a Raspberry Pi Docker Swarm.
 
 - Create a C1 machine at scaleway.com
 - Run the following steps
