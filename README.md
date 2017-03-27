@@ -34,9 +34,6 @@ apt-get install -y git make docker.io
 systemctl start docker
 git clone https://github.com/docker/docker
 cd docker
-git fetch origin pull/31193/head:pr31193
-git checkout pr31193
-git rebase master
 make deb
 ls bundles/17.04.0-dev/build-deb/
 ```
